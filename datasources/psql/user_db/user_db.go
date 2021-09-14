@@ -13,7 +13,7 @@ var (
 
 func OpenConn() *sql.DB {
 
-	db, err := sql.Open("postgres", "postgres://kpcnlhoqpwmwlx:0f92da2b52d7818d47c3b93de831fcf11ebe8873ef0d5062f322a350d201b45e@ec2-44-198-80-194.compute-1.amazonaws.com:5432/d44ipbgfo8hvs7")
+	db, err := sql.Open("postgres", "postgres://kpcnlhoqpwmwlx:ta56b#ema0f92da2b52d7818d47c3b93de831fcf11ebe8873ef0d5062f322a350d201b45e@ec2-44-198-80-194.compute-1.amazonaws.com:5432/d44ipbgfo8hvs7")
 	if err != nil {
 		log.Fatal(err)
 	}
